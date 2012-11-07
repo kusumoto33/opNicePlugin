@@ -7,7 +7,7 @@ opTimelinePluginに依存。
 
 
 opTimelinePlugin側にも修正を行っています。通常のopTimelinePluginでは動きません。
-https://github.com/ichikawatatsuya/opTimelinePlugin.git をcloneしてください。
+https://github.com/tejimaya/opTimelinePlugin.git をcloneしてください。
 [iine]というブランチで開発したため、git checkout iineでブランチを切り替えてください。
 
 
