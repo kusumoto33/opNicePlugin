@@ -1,4 +1,4 @@
-opNicePlugin概要
+opLikePlugin概要
 ======================
 opTimelinePluginにいいね！機能を追加します。
 
@@ -36,10 +36,10 @@ Bootstrap、CSSファイルを下記のように編集・変更してくださ�
 symfonyコマンドを使って、直接DLします
 
     cd path/to/OpenPNE
-    ./symfony opPlugin:install opNicePlugin
+    ./symfony opPlugin:install opLikePlugin
 
 *ZIPからインストール*  
-https://github.com/tejimaya/opNicePlugin/archive/master.zip  
+https://github.com/tejimaya/opLikePlugin/archive/master.zip  
 からダウンロードして手動でインストールします。
 
     ./symfony opPlugin:migrate 
@@ -78,7 +78,7 @@ https://github.com/ichikawatatsuya/opTimelinePlugin/archive/master.zip
 
 **データベース追加**
 
-    ./symfony openpne:migrate --target=opNicePlugin
+    ./symfony openpne:migrate --target=opLikePlugin
 
 
 **アセット**
@@ -94,7 +94,7 @@ opTimelinePluginに依存
     
 更新履歴
 --------
-
+ * 2012/11/16 Ver.0.0.1 opNicePlugin → opLikePlugin に名称を変更
  * 2012/11/08 Ver.0.0.1 「いいね！」機能を追加 
 
 
@@ -102,5 +102,5 @@ opTimelinePluginに依存
 要望・フィードバック
 ----------
 
-https://github.com/tejimaya/opNicePlugin/issues
+https://github.com/tejimaya/opLikePlugin/issues
 
